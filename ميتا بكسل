@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>خيوط حرير لخدمات التنظيف والصيانة</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Cairo',sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#222;
+line-height:1.8;
+}
+
+header{
+background:#0F766E;
+color:white;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+z-index:999;
+box-shadow:0 3px 12px rgba(0,0,0,.15);
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-right:25px;
+font-size:17px;
+}
+
+.hero{
+
+margin-top:90px;
+
+height:90vh;
+
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+padding:30px;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:54px;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:23px;
+
+margin-bottom:35px;
+
+}
+
+.buttons{
+
+display:flex;
+
+gap:20px;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.btn{
+
+padding:15px 38px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-size:19px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.call{
+
+background:#fff;
+
+color:#0F766E;
+
+}
+
+.whatsapp{
+
+background:#25D366;
+
+color:white;
+
+}
+
+.btn:hover{
+
+transform:translateY(-4px);
+
+}
+
+section{
+
+padding:80px 8%;
+
+}
+
+.title{
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:50px;
+
+color:#0F766E;
+
+font-weight:800;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+margin:20px 0;
+
+color:#0F766E;
+
+font-size:24px;
+
+}
+
+.card p{
+
+font-size:17px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+خيوط حرير
+
+</div>
+
+<nav>
+
+<a href="#">الرئيسية</a>
+
+<a href="#">الخدمات</a>
+
+<a href="#">من نحن</a>
+
+<a href="#">اتصل بنا</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>
+
+خيوط حرير لخدمات التنظيف والصيانة
+
+</h1>
+
+<p>
+
+متخصصون في تنظيف المكيفات بأحدث المعدات وأفضل الأسعار داخل المملكة
+
+</p>
+
+<div class="buttons">
+
+<a href="tel:0567985155" class="btn call">
+
+📞 اتصل الآن
+
+</a>
+
+<a href="https://wa.me/966567985155" class="btn whatsapp">
+
+💬 واتساب
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">
+
+خدماتنا
+
+</h2>
+
+<div class="cards">
+    <div class="card">
+
+<h3>تنظيف المكيفات</h3>
+
+<p>
+
+تنظيف شامل للوحدة الداخلية والخارجية وإزالة الأتربة والبكتيريا لتحسين كفاءة التبريد.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>غسيل الفلاتر</h3>
+
+<p>
+
+تنظيف وتعقيم الفلاتر لزيادة عمر المكيف وتحسين جودة الهواء داخل المنزل.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>الصيانة الدورية</h3>
+
+<p>
+
+فحص شامل للمكيف والتأكد من سلامة جميع الأجزاء مع تقديم تقرير بالحالة.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>تعقيم كامل</h3>
+
+<p>
+
+استخدام مواد آمنة ومعتمدة للقضاء على الجراثيم والروائح الكريهة داخل أجهزة التكييف.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section style="
+<footer style="background:#111;color:white;text-align:center;padding:40px 20px;">
+
+<h3 style="margin-bottom:15px;font-size:28px;">
+
+خيوط حرير لخدمات التنظيف والصيانة
+
+</h3>
+
+<p style="margin-bottom:15px;">
+
+نقدم خدمات تنظيف المكيفات باحترافية وجودة عالية في جميع أنحاء المنطقة الشرقية.
+
+</p>
+
+<p style="margin-bottom:10px;">
+
+📞 0567985155
+</p>
+
+<p style="margin-bottom:10px;">
+
+📍 الدمام | الخبر | القطيف | الأحساء | الجبيل
+
+</p>
+
+<p style="margin-top:25px;color:#bbb;font-size:15px;">
+
+© 2026 جميع الحقوق محفوظة - خيوط حرير لخدمات التنظيف والصيانة
+
+</p>
+
+</footer>
+<!-- أزرار الاتصال والواتساب -->
+<div class="floating-buttons">
+
+    <a href="tel:0567985155" class="call-btn">
+        📞 اتصال
+    </a>
+
+    <a href="https://wa.me/966567985155" target="_blank" class="whatsapp-btn">
+        💬 واتساب
+    </a>
+
+</div>
+
+<style>
+
+.floating-buttons{
+position:fixed;
+bottom:20px;
+left:20px;
+display:flex;
+flex-direction:column;
+gap:12px;
+z-index:9999;
+}
+
+.floating-buttons a{
+text-decoration:none;
+padding:14px 22px;
+border-radius:40px;
+font-size:18px;
+font-weight:bold;
+color:white;
+box-shadow:0 6px 15px rgba(0,0,0,.25);
+transition:.3s;
+}
+
+.call-btn{
+background:#0F766E;
+}
+
+.whatsapp-btn{
+background:#25D366;
+}
+
+.floating-buttons a:hover{
+transform:scale(1.08);
+}
+
+</style>
+</body>
+
+</html>
