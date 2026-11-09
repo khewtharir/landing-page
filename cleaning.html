@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>خيوط حرير | تنظيف الكنب والمنازل</title>
-<meta name="description" content="خيوط حرير لخدمات تنظيف الكنب والمجالس والسجاد والموكيت والمنازل والخزانات بالمنطقة الشرقية">
+<title>خيوط حرير | خدمات التنظيف</title>
+<meta name="description" content="خيوط حرير لتنظيف الكنب والمجالس والسجاد والموكيت والمنازل والخزانات بالمنطقة الشرقية">
 
 <style>
 * {
@@ -15,56 +15,61 @@
 
 body {
   font-family: Tahoma, Arial, sans-serif;
-  background: #f8f8f6;
-  color: #333;
+  background: #f5fbfc;
+  color: #123d50;
   line-height: 1.8;
 }
 
 header {
-  background: #fff;
-  padding: 18px 6%;
+  background: white;
+  padding: 15px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  box-shadow: 0 2px 10px #00000012;
+  box-shadow: 0 3px 12px #0001;
 }
 
 .logo {
-  color: #176b60;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: bold;
+  color: #075b68;
 }
 
 nav a {
   text-decoration: none;
-  color: #333;
-  margin: 0 10px;
+  color: #123d50;
+  margin: 0 12px;
 }
 
 .hero {
-  background: linear-gradient(135deg,#155f55,#27917d);
+  background: linear-gradient(135deg,#087b86,#04b5a5);
   color: white;
   text-align: center;
-  padding: 75px 20px;
+  padding: 65px 15px;
 }
 
 .hero h1 {
-  font-size: 32px;
-  margin-bottom: 15px;
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.hero h2 {
+  font-size: 23px;
+  margin-bottom: 12px;
 }
 
 .hero p {
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 
 .btn {
   display: inline-block;
   padding: 12px 25px;
   border-radius: 8px;
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   margin: 6px;
   font-weight: bold;
 }
@@ -76,91 +81,157 @@ nav a {
 .call {
   background: #d69b36;
 }
-</style>
-</head>
-<style>
+
 .services {
-  padding: 55px 6%;
+  padding: 55px 5%;
   text-align: center;
 }
 
 .section-title {
-  color: #176b60;
-  font-size: 27px;
+  color: #087b86;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  grid-template-columns: repeat(4,1fr);
   gap: 20px;
 }
 
 .service-card {
   background: white;
-  padding: 25px 18px;
-  border-radius: 12px;
-  box-shadow: 0 3px 15px #00000012;
-  border-bottom: 4px solid #27917d;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px #087b8620;
+  border-bottom: 5px solid #08b5a5;
+  transition: transform .3s;
 }
 
-.service-card .emoji {
-  font-size: 42px;
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
 }
 
 .service-card h3 {
-  color: #176b60;
-  margin: 12px 0;
+  color: #075b68;
+  font-size: 20px;
+  padding: 12px 8px 5px;
+}
+
+.service-card p {
+  padding: 0 12px 20px;
+  color: #435866;
+  font-size: 15px;
 }
 
 .about {
-  background: #edf5f2;
-  padding: 45px 7%;
+  background: #e9f8f7;
   text-align: center;
+  padding: 45px 7%;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.feature {
+  padding: 15px;
+  font-weight: bold;
+  color: #087b86;
+}
+
+.feature span {
+  display: block;
+  font-size: 35px;
 }
 
 .areas {
-  padding: 40px 15px;
   text-align: center;
+  padding: 45px 15px;
 }
 
 .areas span {
   display: inline-block;
   background: white;
-  padding: 8px 17px;
+  border: 1px solid #08a99e;
+  border-radius: 25px;
+  padding: 8px 18px;
   margin: 5px;
-  border-radius: 20px;
-  border: 1px solid #27917d;
 }
 
 .contact {
-  background: #176b60;
+  background: linear-gradient(135deg,#087b86,#04b5a5);
   color: white;
-  padding: 45px 15px;
   text-align: center;
+  padding: 45px 15px;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
 }
 
 footer {
-  background: #123f39;
+  background: #064650;
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 20px;
 }
 
-@media(max-width:600px) {
+@media(max-width:900px) {
+  .service-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media(max-width:550px) {
   header {
     justify-content: center;
     gap: 10px;
   }
+
   nav a {
-    margin: 0 5px;
-    font-size: 13px;
+    margin: 0 6px;
+    font-size: 14px;
   }
+
   .hero h1 {
-    font-size: 25px;
+    font-size: 27px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card img {
+    height: 230px;
+  }
+
+  .features {
+    grid-template-columns: repeat(2,1fr);
   }
 }
 </style>
+</head>
+
+<body>
 
 <header>
   <div class="logo">خيوط حرير</div>
@@ -173,8 +244,8 @@ footer {
 
 <section class="hero">
   <h1>خيوط حرير لخدمات التنظيف</h1>
-  <p>نظافة واهتمام بكل تفاصيل منزلك</p>
-  <p>تنظيف الكنب والمجالس والسجاد والموكيت والمنازل والخزانات</p>
+  <h2>نظافة واهتمام بكل تفاصيل منزلك</h2>
+  <p>نقدم لكم خدمات تنظيف احترافية بعناية وجودة عالية</p>
 
   <a class="btn whatsapp"
      href="https://wa.me/966567985155">
@@ -193,27 +264,31 @@ footer {
   <div class="service-grid">
 
     <div class="service-card">
-      <div class="emoji">🛋️</div>
+      <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=700"
+      alt="الكنب والمجالس" loading="lazy">
       <h3>تنظيف الكنب والمجالس</h3>
-      <p>تنظيف الكنب والمجالس والعناية بالأقمشة وإزالة الأوساخ.</p>
+      <p>تنظيف الكنب والمجالس والعناية بالأقمشة وإزالة الأوساخ والبقع.</p>
     </div>
 
     <div class="service-card">
-      <div class="emoji">🧼</div>
+      <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=700"
+      alt="السجاد والموكيت" loading="lazy">
       <h3>تنظيف السجاد والموكيت</h3>
-      <p>العناية بالسجاد والموكيت وتنظيفه لاستعادة مظهره الجميل.</p>
+      <p>إزالة البقع والأوساخ وتنظيف السجاد والموكيت بعناية.</p>
     </div>
 
     <div class="service-card">
-      <div class="emoji">🏠</div>
+      <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700"
+      alt="تنظيف المنازل" loading="lazy">
       <h3>تنظيف المنازل</h3>
-      <p>تنظيف شامل للمنازل والاهتمام بالتفاصيل.</p>
+      <p>تنظيف شامل للمنازل والغرف والمطابخ والحمامات.</p>
     </div>
 
     <div class="service-card">
-      <div class="emoji">💧</div>
+      <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=700"
+      alt="تنظيف الخزانات" loading="lazy">
       <h3>تنظيف الخزانات</h3>
-      <p>خدمات تنظيف خزانات المياه والعناية بنظافتها.</p>
+      <p>تنظيف خزانات المياه والعناية بنظافتها بشكل دوري.</p>
     </div>
 
   </div>
@@ -225,6 +300,25 @@ footer {
     نقدم خدمات التنظيف باهتمام وجودة وعناية،
     ونسعى دائمًا لتقديم تجربة مريحة لعملائنا.
   </p>
+
+  <div class="features">
+    <div class="feature">
+      <span>✨</span>
+      عناية واهتمام
+    </div>
+    <div class="feature">
+      <span>🏠</span>
+      خدمات متنوعة
+    </div>
+    <div class="feature">
+      <span>📍</span>
+      خدمة المنطقة الشرقية
+    </div>
+    <div class="feature">
+      <span>📞</span>
+      سهولة التواصل
+    </div>
+  </div>
 </section>
 
 <section class="areas">
